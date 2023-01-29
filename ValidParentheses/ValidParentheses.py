@@ -6,8 +6,6 @@ class Solution:
         for c in s:
             if c in "({[":
                 stack.append(c)
-                continue
-            else:
-                if not stack or stack.pop() != dict[c]:
-                    return False
+            elif not stack or stack.pop() != dict[c]:
+                return False
         return not stack
