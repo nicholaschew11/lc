@@ -9,3 +9,4 @@ class Solution:
             elif not stack or stack.pop() != dict[c]:
                 return False
         return not stack
+        
