@@ -8,3 +8,4 @@ class Solution:
             elif prices[i] - minBuy > maxProfit:
                 maxProfit = prices[i] - minBuy
         return maxProfit
+        
