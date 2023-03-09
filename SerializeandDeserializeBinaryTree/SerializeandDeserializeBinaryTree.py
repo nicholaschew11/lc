@@ -47,3 +47,4 @@ class Codec:
                 q.append(node.right)
             n += 1
         return root
+    
